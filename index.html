@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="java.js"></script>
 </head>
 
 <body>
@@ -19,6 +20,9 @@
             <div class="logo_image">
                 <img class ="logo" src="odin-lined.png">
             </div>
+            <div class="logo_text">
+                ODIN
+            </div>
 
            
             
@@ -26,8 +30,8 @@
         <div class="right">
             <div class="intro">
                 <p>This is not a real online service! You know you need something like this in your life to help you realise your deepest dreams.</p> 
-                <p class ="signup">Sign up <em>now</em> to get started</p>
-                <p>You <em>know</em> you want to</p>
+                <p class ="signup">Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
             </div>
             <p>Let's do this!</p>
 
@@ -35,19 +39,19 @@
                 <div class="form_container">
                     <div class="left_form">
                         <label for="first_name">FIRST NAME</label>
-                        <input type="text" id="first_name">
+                        <input type="text" id="first_name" required>
                         <label for="email">EMAIL</label>
-                        <input type="email" id="email">
+                        <input type="email" id="email" required>
                         <label for="password">PASSWORD</label>
-                        <input type="password" id="password">
+                        <input type="password" id="password" required>
                     </div>
                     <div class="right_form">
                         <label for="last_name">LAST NAME</label>
-                        <input type="text" id="last_name">
+                        <input type="text" id="last_name" required>
                         <label for="phone">PHONE NUMBER</label>
-                        <input type="number" id="phone">
+                        <input type="number" id="phone" required>
                         <label for="confirm_password">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm_password">
+                        <input type="password" id="confirm_password" minlength="1" maxlength="12" required>
                     </div>
                 </div>
                 <div class="button">
