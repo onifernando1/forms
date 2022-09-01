@@ -114,20 +114,32 @@ span {
 
 .background_image {
     position:relative;
-    width: 600px;
+    width: 400px;
+    height:800px;
     object-fit: cover;
 }
 
 .logo_background {
     height:100px;
-    width: 300px;
-    background-color: grey;
+    width: 400px;
+    background-color: rgb(73, 73, 73);
+    opacity:.5;
+    position:absolute;
+    margin-top:-600px;
+
+}
+
+
+.logo {
+
+    height:100px;
     position:absolute;
 
 }
 
-.logo {
-    height:100px;
+.logo_image {
+    height:1000px;
+    width:1000px;
     position:absolute;
-
+    margin-top: -600px;
 }
